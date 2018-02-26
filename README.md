@@ -6,13 +6,13 @@ http://scip.zib.de/
 # Problem Formulation:
 minimize c^Tx
 under
-    Ax<=b
-    and x_i in {0,1} for x=1...m
-# Implementation:
-For the implementation two strategies for choosing next branching candidates 
-are possible.
- # Breadth First Search
- # Minimum Lower Bound(choose the node with the lowest lower bound)
- 
+    Ax>=b
+    x_i >=0 for all i
+    and x_i in {0,1} for x = 1,...,p
+# Dependencies
+GMP:
+The Scip library:
+http://scip.zib.de/
+plesase install version 4.x.x 
  
     
