@@ -33,13 +33,16 @@ Before running make sure to have cloned or downloaded the repository in the scip
 ## Edit the makefile
 Make sure that SCIPDIR in the makefile is the location of scip.
 Run this command in terminal after editing the makefile.
-```make depend
+```
+make depend
 ```
  # Compiling and running
  Inside de Cloned repository compile with:
- ```make
+ ```
+ make
  ```
 Then run the linked binary whose name should be output on the terminal.
 For example
- ```bin/LP.linux.x86_64.gnu.opt.spx2
+```
+ bin/LP.linux.x86_64.gnu.opt.spx2
  ```
