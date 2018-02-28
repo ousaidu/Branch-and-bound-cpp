@@ -6,9 +6,9 @@ http://scip.zib.de/
 # Problem Formulation:
 minimize c^Tx
 under
-    Ax>=b
+    Ax &ge; b
      x &ge; 0 
-    and x<sub>j</sub> j in {0,1} for i = 1,...,p
+    and x<sub>i</sub> in {0,1} for i = 1,...,p
 # Dependencies
 GMP:
 The Scip library:
