@@ -49,3 +49,6 @@ For example
 ```
  bin/LP.linux.x86_64.gnu.opt.spx2
  ```
+# Output
+Each new best feasible solution found in the solving process is output.
+The best solution found and its objective is output at the end.
