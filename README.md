@@ -10,6 +10,7 @@ Minimize c<sup>T</sup>x
      <p>Ax &ge; b
      <p>x &ge; 0
      <p>and x<sub>i</sub> in {0,1} for i = 1,...,p
+
 # Dependencies
 GMP:
 
