@@ -7,8 +7,8 @@ http://scip.zib.de/
 minimize c^Tx
 under
     Ax>=b
-    x_i >=0 for all i
-    and x_i in {0,1} for x = 1,...,p
+     x<sub>&i;</sub >=0 for all i
+    and x_j in {0,1} for i = 1,...,p
 # Dependencies
 GMP:
 The Scip library:
