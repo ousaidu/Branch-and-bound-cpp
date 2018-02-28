@@ -5,9 +5,13 @@ More about SCIP on:
 http://scip.zib.de/
 # Problem Formulation:
 Minimize c<sup>T</sup>x
+
 under
+
     Ax &ge; b
-     x &ge; 0 
+    
+     x &ge; 0
+     
     and x<sub>i</sub> in {0,1} for i = 1,...,p
 # Dependencies
 GMP:
