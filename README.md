@@ -7,7 +7,7 @@ http://scip.zib.de/
 minimize c^Tx
 under
     Ax>=b
-     x<sub>&i;</sub >=0 for all i
+     x<sub>i;</sub> &ge; 0 for all i
     and x_j in {0,1} for i = 1,...,p
 # Dependencies
 GMP:
