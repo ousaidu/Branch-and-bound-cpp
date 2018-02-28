@@ -4,7 +4,7 @@ The SCIP library is used to solve the Linear Relaxation.
 More about SCIP on:
 http://scip.zib.de/
 # Problem Formulation:
-minimize c^Tx
+minimize c<sup>T</sup>x
 under
     Ax &ge; b
      x &ge; 0 
