@@ -32,7 +32,7 @@ The location of the text file of the problem instance should be given in the lin
 ## Branching strategies
 This implementation permits to choose between a breadth first search strategy and minimum lower bound strategy.
 # Running the code
-Before running make sure to have cloned or downloaded the repository in the scip opt suite root directory.
+Before running make sure to have cloned or downloaded the repository in the scipoptsuite root directory in on your machine.
 ## Edit the makefile
 Make sure that SCIPDIR in the makefile is the location of scip.
 Run this command in terminal after editing the makefile.
