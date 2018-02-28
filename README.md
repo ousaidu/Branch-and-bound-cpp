@@ -6,10 +6,10 @@ http://scip.zib.de/
 # Problem Formulation:
 Minimize c<sup>T</sup>x
 
-under
-     Ax &ge; b
-     x &ge; 0
-     and x<sub>i</sub> in {0,1} for i = 1,...,p
+<p>under
+     <p>Ax &ge; b
+     <p>x &ge; 0
+     <p>and x<sub>i</sub> in {0,1} for i = 1,...,p
 # Dependencies
 GMP:
 
