@@ -40,7 +40,7 @@ Run this command in terminal after editing the makefile.
 make depend
 ```
  # Compiling and running
- Inside de Cloned repository compile with:
+ Inside the Cloned repository compile with:
  ```
  make
  ```
