@@ -12,11 +12,23 @@ Minimize c<sup>T</sup>x
      <p>and x<sub>i</sub> in {0,1} for i = 1,...,p
 
 # Dependencies
-GMP:
 
 The Scip library:
 http://scip.zib.de/ 
 please install version 4.x.x 
+# Installing SCIP
+[Download](http://scip.zib.de/download.php?fname=scipoptsuite-4.0.1.tgz) scipopt suite.
+untar the tar ball.
+Move to the scipoptsuite-4.0.1 directory and run:
+```
+make
+```
+In case you are missing some external libraries you can disable them with the following 'make' arguments:
+- GMP=false       (disables GMP support)
+- ZLIB=false      (disables ZLIB support)
+- READLINE=false  (disables READLINE support)
+
+
 # Problem Instance
 The 0-1 Integer program to solve should be specified in a text file with following format.
 First line: number of variables, number of binary variables and the number of  constraints separated by space
@@ -32,15 +44,15 @@ The location of the text file of the problem instance should be given in the lin
 ## Branching strategies
 This implementation permits to choose between a breadth first search strategy and minimum lower bound strategy.
 # Running the code
-Before running make sure to have cloned or downloaded the repository in the scipoptsuite root directory in on your machine.
+Before running make sure to have cloned or downloaded the repository in the scipoptsuite  directory  on your machine.
 ## Edit the makefile
-Make sure that SCIPDIR in the makefile is the location of scip.
+Make sure that SCIPDIR in the makefile of the project is the location of scip on your machine.
 Run this command in terminal after editing the makefile.
 ```
 make depend
 ```
  # Compiling and running
- Inside the Cloned repository compile with:
+ Inside the project repository compile with:
  ```
  make
  ```
