@@ -39,7 +39,7 @@ All entries are separated by space.
 next lines until penultimate:each lines is a line of the A matrix of the problem.Each entry is followed by space.
 
 last line: The constraint vector. each entry followed by space.
-[Example](https://github.com/ousaidu/Branch-and-bound-cpp/blob/master/exp4.txt)
+<p>[Example](https://github.com/ousaidu/Branch-and-bound-cpp/blob/master/exp4.txt)
 # Solving the problem instance
 The location of the text file of the problem instance should be given in the line 36 of the main(in the file test.cpp).
 ## Branching strategies
